@@ -4,11 +4,13 @@ import Common from './common/common';
 import Components from './components/components';
 import AppComponent from './app.component';
 import 'normalize.css';
+import AngularUIBootstrap from 'angular-ui-bootstrap';
 
 angular.module('app', [
     uiRouter,
     Common,
-    Components
+    Components,
+    AngularUIBootstrap
   ])
   .config(($locationProvider) => {
     "ngInject";
